@@ -493,7 +493,7 @@ class DivideAndConquerBot {
         return true;
     }
 
-    // NEW: fallback for when global solver fails
+    // fallback for when global solver fails
     // sometimes we just want a valid color locally even if we can't prove global validity
     public int findSimpleLocalColor(int rid) {
         Set<Integer> used = new HashSet<>();
