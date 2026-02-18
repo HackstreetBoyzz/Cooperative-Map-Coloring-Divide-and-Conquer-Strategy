@@ -1,4 +1,5 @@
-#Cooperative Map Coloring with Divide & Conquer Bot
+Cooperative Map Coloring with Divide & Conquer Bot
+
 A Java Swing-based visualization of the Map Coloring Constraint Satisfaction Problem (CSP). This project features an interactive game where a human player cooperates with an Bot to color a planar map using only 4 colors, ensuring no two adjacent regions share the same color.
 
 The Bot uses a Divide and Conquer algorithm combined with Backtracking and Heuristics (MRV) to validate moves and solve the puzzle in real-time.
