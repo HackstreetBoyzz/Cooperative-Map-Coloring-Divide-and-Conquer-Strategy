@@ -443,7 +443,7 @@ class DivideAndConquerBot {
     private boolean backtrack(List<Integer> ids, int index, Map<Integer, Integer> assignment) {
         if (index == ids.size()) return true;
 
-        // MRV heuristic: sort by most constrained
+        // MRV  sort by most constrained
         int bestIdx = index;
         int bestCount = Integer.MAX_VALUE;
         for (int i = index; i < ids.size(); i++) {
